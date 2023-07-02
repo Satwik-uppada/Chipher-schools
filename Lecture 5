@@ -27,6 +27,6 @@ int n=m++;
 System.out.println("M is: " +m+ "N is: " +n);
 int p = 5;
 int q= ++p;
-System.out.println("P is: " +p+ "Q is: " +a);
+System.out.println("P is: " +p+ "Q is: " +q);
 }
 }
