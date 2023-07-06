@@ -1,0 +1,44 @@
+/*
+ * Time Complexity:
+ * -----------------
+ * Time complexity measures the amount of time taken by an algorithm to run, as a function of the input size.
+ * It provides an estimate of the execution time required by an algorithm to solve a problem.
+ * Best, worst, average time complexities are there
+ *
+ * Big O Notation:
+ * ---------------
+ * Big O notation is used to represent the upper bound or worst-case scenario of an algorithm's time complexity.
+ * It describes the growth rate of an algorithm's runtime relative to the input size.
+ * The most common time complexity notations are O(1), O(log n), O(n), O(n log n), O(n^2), etc.
+ *
+ * Omega Notation:
+ * ---------------
+ * Omega notation is used to represent the lower bound or best-case scenario of an algorithm's time complexity.
+ * It describes the minimum growth rate of an algorithm's runtime relative to the input size.
+ * Omega notation is less commonly used compared to Big O notation but provides valuable insights into lower bounds.
+ *
+ *
+ * Examples:
+ * ---------
+ *
+ * 1. Constant Time Complexity - O(1)
+ *    - An algorithm that takes the same amount of time to execute, regardless of the input size.
+ *    - E.g., accessing an element from an array by index, performing a simple arithmetic operation.
+ *
+ * 2. Logarithmic Time Complexity - O(log n)
+ *    - An algorithm whose execution time grows logarithmically as the input size increases.
+ *    - E.g., binary search on a sorted array, divide-and-conquer algorithms like merge sort.
+ *
+ * 3. Linear Time Complexity - O(n)
+ *    - An algorithm whose execution time increases linearly with the input size.
+ *    - E.g., traversing a linked list, finding the maximum element in an array by iterating through it.
+ *
+ * 4. Quadratic Time Complexity - O(n^2)
+ *    - An algorithm whose execution time increases quadratically with the input size.
+ *    - E.g., nested loops iterating over the same array or nested data structures.
+ *
+ * 5. Space Complexity:
+ *    - Similar to time complexity, space complexity measures the amount of memory used by an algorithm.
+ *    - It is also represented using Big O notation, but instead of time, it represents the space used.
+ *    - E.g., O(1) for constant space, O(n) for linear space (e.g., when using an additional array).
+ */
